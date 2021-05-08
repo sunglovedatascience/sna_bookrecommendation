@@ -12,4 +12,4 @@ SET   s.similarity = CosineSimilarity
 MATCH (u1:User)-[r:RATED]->(b:Book)
 MATCH (u1:User)-[s:SIMILARITY]-(u2:User)
 WHERE s.similarity > 0.5
-MERGE (b)-[:RECOMMEND]-(u2
+MERGE (b)-[:RECOMMEND]-(u2)
