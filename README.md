@@ -9,6 +9,7 @@
   * สามารถดูวิธีดาวน์โหลด Neo4j Desktop ที่ https://www.sqlshack.com/getting-started-with-the-neo4j-graph-database/
 ## ขั้นตอนการรันโปรแกรม Neo4j
   * เข้าไปดูขั้นตอนที่ https://docs.google.com/presentation/d/1O2iC8Yrw6EhsC_7ZPCrF8LXcuapDJlELdL5thNk6raU/edit?usp=sharing
+  * สามารถ copy source code ที่ https://github.com/sunglovedatascience/sna_bookrecommendation/tree/main/cypher
   * หมายเหตุ คำสั่ง Cypher หลักๆ ดังนี้
   1. CREATE เพิ่ม node relationship property
   2. MATCH เรียกข้อมูลจาก node relationship property
