@@ -6,7 +6,7 @@
   * บทความนี้ได้เลือกไฟล์ Books.csv เป็นข้อมูลรายละเอียดหนังสือ และไฟล์ Ratings.csv เป็นข้อมูลการให้คะแนนหนังสือโดยผู้ใช้งานเท่านั้น
   * นำ 2 ไฟล์ดังกล่าว ทำ concat ด้วย Python เพื่อให้มีความพร้อมต่อการใช้งาน Neo4j โดยสำรวจข้อมูลว่ามีค่า null หรือไม่ แล้วเลือก Feature ที่ใช้ สามารถดูวิธีการเตรียมข้อมูลได้ที่ https://colab.research.google.com/drive/1cotfMwfwgw77RPI8YcAcqld98j2rqBXt?usp=sharing
 ## Install โปรแกรม Neo4j
-  * สามารถดูวิธีดาวน์โหลด Neo4j Desktop ที่ https://www.sqlshack.com/getting-started-with-the-neo4j-graph-database/
+  * สามารถดูวิธีดาวน์โหลด Neo4j Desktop ตลอดจนถึงการสร้าง Graph Database ใน Project https://www.sqlshack.com/getting-started-with-the-neo4j-graph-database/
 ## ขั้นตอนการรันโปรแกรม Neo4j
   * เข้าไปดูขั้นตอนที่ https://docs.google.com/presentation/d/1O2iC8Yrw6EhsC_7ZPCrF8LXcuapDJlELdL5thNk6raU/edit?usp=sharing
   * สามารถ copy source code ที่ https://github.com/sunglovedatascience/sna_bookrecommendation/tree/main/cypher
